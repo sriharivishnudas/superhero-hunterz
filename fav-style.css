@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    background-color: red;
+}
+
+#header {
+    margin: auto;
+    height: 3rem;
+    width: 15rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+
+#gallery {
+    height: 45rem;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list {
+    height: 7em;
+    width: 7em;
+    background-color: aliceblue;
+    margin-top: 5rem;
+}
+
+.list img {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    text-align: start;
+    position: relative;
+    left: 10%;
+}
+
+.liked {
+    color: red;
+}
